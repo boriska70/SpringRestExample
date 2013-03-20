@@ -25,6 +25,11 @@ public class MyRestController {
     @Autowired
     MyQueue myQueue;
 
+    @RequestMapping(value = "/", method = RequestMethod.GET, produces = "application/json")
+    public @ResponseBody MyData hello(){
+        return new MyData("Human");
+    }
+
     @RequestMapping(value = "/getName/{name}", method = RequestMethod.GET)
     public
     @ResponseBody

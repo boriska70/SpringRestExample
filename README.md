@@ -1,4 +1,5 @@
 SpringRestExample
 =================
 
-Spring Rest examples
+Rest with Spring MVC example
+Spring MVC, logging. No persistency.
